@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	hello := "world"
+	hello := "hllc"
 	fmt.Print(hello)
 	_ = godotenv.Load()
 
