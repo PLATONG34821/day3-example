@@ -36,7 +36,7 @@ export default function UseEffectDemo() {
         <h2 className="font-semibold">1. Timer (interval)</h2>
         <p className="text-2xl font-mono">{count}s</p>
         <p className="text-sm text-slate-500">
-          ใช้ useEffect เพราะต้อง subscribe กับ setInterval · มี cleanup
+          ใช้ useEffect เพasdราะต้อง subscribe กับ setInterval · มี cleanup
         </p>
       </section>
 
