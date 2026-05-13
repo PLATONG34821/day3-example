@@ -55,6 +55,7 @@ export default function MajorsPage() {
         </div>
         <button
           type="submit"
+          onClick= {() => alert('Form submitted!')}
           disabled={createMutation.isPending}
           className="bg-slate-900 text-white rounded px-4 py-2 text-sm disabled:opacity-50"
         >
